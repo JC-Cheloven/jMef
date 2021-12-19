@@ -5,7 +5,7 @@ The program performs a finite element analysis of a 2d linear elastic solid.
 It is mainly educational software, aiming to be used as a daily tool by
 students and teacher in an introductory course on the Theory of Elasticity.
 
-To execute it please launch the file jMef_06.py under Python 3 with the 
+To execute it please launch the file jMef_06_en.py under Python 3 with the 
 libraries NumPy, SciPy & Matplotlib installed. 
 
 There is no need for a user manual:  Instead, some "quick notes" and a 
