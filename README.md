@@ -25,3 +25,5 @@ which should be just enough to approximate geometry and boundary conditions.
 There is a function "refine" which allows refining the mesh to the desired
 level afterwards. A hardcoded example can be run to get the idea. Also,
 some files with simple examples are included and ready to load.
+
+I believe you'll like jMef :-)
