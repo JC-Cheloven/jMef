@@ -1,0 +1,74 @@
+Identificación:  /home/jc/proyectitos_jc/jMEF/jmef_02.dat
+
+Num_de_nodos     Num_de_elementos
+     21                6
+____________________________________________________________
+iNodo    coor_x      coor_y
+  1     0.00000    -0.50000
+  4     1.50000    -0.50000
+  7     3.00000    -0.50000
+ 10     4.50000    -0.50000
+ 13     6.00000    -0.50000
+ 16     7.50000    -0.50000
+ 19     9.00000    -0.50000
+  2     0.00000     0.00000
+  5     1.50000     0.00000
+  8     3.00000     0.00000
+ 11     4.50000     0.00000
+ 14     6.00000     0.00000
+ 17     7.50000     0.00000
+ 20     9.00000     0.00000
+  3     0.00000     0.50000
+  6     1.50000     0.50000
+  9     3.00000     0.50000
+ 12     4.50000     0.50000
+ 15     6.00000     0.50000
+ 18     7.50000     0.50000
+ 21     9.00000     0.50000
+
+iElem  mat         nodos
+  1     0       1  5  9  6  3  2
+  2     0       1  4  7  8  9  5
+  3     0       7  11  15  12  9  8
+  4     0       7  10  13  14  15  11
+  5     0       13  16  19  20  21  17
+  6     0       13  17  21  18  15  14
+
+Materiales:    1
+ nº     E        nu      alfa_temp
+ 0    1000.0    0.2      0.001
+
+TP/DP?:   TP
+____________________________________________________________
+Nodos con desplazamiento impuesto:  0
+ dir  Nodo         u_1         u_2
+
+Resortes puntuales en nodos:  0
+ dir  Nodo         k_1         k_2
+
+Zonas con desplazamiento impuesto:  1
+ dir    Nodos           u_1                     u_2
+xy   3 2 1     0.0  0.0  0.0            0.0  0.0  0.0
+
+Zonas con apoyo elástico:  0
+ dir    Nodos          k_1/L                   k_2/L
+____________________________________________________________
+Zonas con carga de contorno:  3
+ dir    Nodos          X_1/L                   X_2/L
+xy   9  6  3   0.0  0.0  0.0            -1.0  -1.0  -1.0
+xy   15  12  9   0.0  0.0  0.0            -1.0  -1.0  -1.0
+xy   21  18  15   0.0  0.0  0.0            -1.0  -1.0  -1.0
+
+Fuerzas de volumen:  0
+
+Distribución de temperatura:  0
+
+Cargas puntuales en nodos:  0
+ dir  Nodo     F_1       F_2
+
+Factores para cada tipo de carga: 
+ distribuidas    de volumen     térmica    puntuales
+     1.0           1.0           1.0        1.0
+# ___fin___
+
+
