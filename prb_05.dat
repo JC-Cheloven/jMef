@@ -1,0 +1,75 @@
+Identificación:  /home/jc/proyectitos_jc/jMEF/prb_05.dat
+
+Num_de_nodos     Num_de_elementos
+     22                7
+------------------------------------------------------------
+iNodo    coor_x      coor_y
+  1   -10.00000   -12.00000
+  2     0.00000   -12.00000
+  3    10.00000   -12.00000
+  4    12.00000    -6.00000
+  5    14.00000     0.00000
+  6    12.00000     6.00000
+  7     6.00000    12.00000
+  8     0.00000    12.00000
+  9    -6.00000    12.00000
+ 10   -12.00000     6.00000
+ 11   -14.00000     0.00000
+ 12   -12.00000    -6.00000
+ 13    -5.00000    -6.00000
+ 14     5.00000    -6.00000
+ 15     7.00000     0.00000
+ 16     5.00000     6.00000
+ 17    -5.00000     6.00000
+ 18    -7.00000     0.00000
+ 19     0.00000     0.00000
+ 20    14.00000    12.00000
+ 21    18.00000     6.00000
+ 22    21.00000    12.00000
+
+iElem  mat     nodos
+1      0    1 2 3 14 19 13
+2      0    3 4 5 15 19 14
+3      0    5 6 7 16 19 15
+4      0    7 8 9 17 19 16
+5      0    9 10 11 18 19 17
+6      0    11 12 1 13 19 18
+7      0    7 6 5 21 22 20
+
+Materiales:    1
+ nº    E       nu     alfa_temp
+ 0   1000.0   0.2    0.001
+
+TP/DP?:   TP
+------------------------------------------------------------
+Nodos con desplazamiento impuesto:  0
+ dir  Nodo     u_1     u_2
+
+Resortes puntuales en nodos:  1
+ dir  Nodo     k_1     k_2
+30.0  3      0.0      50.0
+
+Zonas con desplazamiento impuesto:  1
+ dir  nA  nB  nC    u1(A)  u1(B)  u1(C)    u2(A)  u2(B)  u2(C)
+nt  11 12 1  0.0  0.0  0.0    free  free  free
+
+Zonas con apoyo elástico:  0
+ dir  nA  nB  nC    k1/L  k1/L  k1/L    k2/L  k2/L  k2/L
+------------------------------------------------------------
+Zonas con carga de contorno:  1
+ dir  nA  nB  nC    X1/L  X1/L  X1/L    X2/L  X2/L  X2/L
+xy  22  20  7  0.0  0.0  0.0    -10.0  -10.0  -10.0
+
+Fuerzas de volumen:  0
+
+Distribución de temperatura:  0
+
+Cargas puntuales en nodos:  0
+ dir  Nodo    F_1      F_2
+
+Factores para cada tipo de carga: 
+ distribuidas    de volumen     térmica    puntuales
+     1.0           1.0           1.0        1.0
+# ___fin___
+
+

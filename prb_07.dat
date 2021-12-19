@@ -1,0 +1,54 @@
+Identification:  /home/jc/proyectitos_jc/jMEF/v06/prb_07.dat
+
+Num_of_nodes     Num_of_elements
+      9                2
+------------------------------------------------------------
+iNode    coor_x      coor_y
+  1     0.00000     0.00000
+  2    50.00000     0.00000
+  3   100.00000     0.00000
+  4     0.00000    50.00000
+  5    50.00000    50.00000
+  6   100.00000    50.00000
+  7     0.00000   100.00000
+  8    50.00000   100.00000
+  9   100.00000   100.00000
+
+iElem  mat      nodes
+1    0   1 2 3 6 9 5
+2    0   1 5 9 8 7 4
+
+Materials:    1
+ nº    E       nu     alfa_temp
+ 0   1000.0   0.2    0.001
+
+TP/DP?:   TP
+------------------------------------------------------------
+Nodes with prescribed displacement:  3
+ dir  Node     u_1     u_2
+xy 4      0.0     0.0
+xy 1      0.0     free
+xy 7      0.0     free
+
+Punctual springs in nodes:  0
+ dir  Node     k_1     k_2
+
+Prescribed displacement zones:  0
+ dir  nA  nB  nC    u1(A)  u1(B)  u1(C)    u2(A)  u2(B)  u2(C)
+
+Elastic foundation boundary zones:  0
+ dir  nA  nB  nC    k1/L  k1/L  k1/L    k2/L  k2/L  k2/L
+------------------------------------------------------------
+Boundary load zones:  0
+ dir  nA  nB  nC    X1/L  X1/L  X1/L    X2/L  X2/L  X2/L
+
+Volume forces:  0
+
+Temperature field:  1
+  0
+
+Punctual forces in nodes:  0
+ dir  Nodo    F_1      F_2
+# ___end___
+
+
